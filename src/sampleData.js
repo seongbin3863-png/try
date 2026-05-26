@@ -85,4 +85,4 @@ export const ATMOSPHERE_TAGS_POOL = [
   '예약 필수',
   '동네 축덕 아지트',
   '맥덕들 추천'
-],
+];
