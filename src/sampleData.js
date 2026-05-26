@@ -154,3 +154,33 @@ export const INITIAL_PLACES = [
   createdAt: new Date().toISOString()
 }
   ];
+export const CATEGORY_DETAILS = {
+  all: { label: '전체', color: 'bg-zinc-800 text-zinc-100' },
+  pub: { label: '스포츠 펍', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-500/30' },
+  chicken: { label: '치킨집/호프', color: 'bg-amber-950/80 text-amber-300 border-amber-500/30' },
+  lounge: { label: '라운지', color: 'bg-purple-950/80 text-purple-300 border-purple-500/30' },
+};
+
+export const CROWD_DETAILS = {
+  moderate: {
+    label: '보통',
+    color: 'text-emerald-500 bg-emerald-500/10 border-emerald-500/30'
+  },
+  high: {
+    label: '혼잡',
+    color: 'text-amber-500 bg-amber-500/10 border-amber-500/30'
+  }
+};
+
+export const REGIONS = [
+  { value: 'all', label: '전체 서울' },
+  { value: 'hongdae', label: '홍대/신촌' }
+];
+
+export const ATMOSPHERE_TAGS_POOL = [
+  '축구 응원',
+  '빔프로젝터',
+  '치맥',
+  'TV 다수',
+  '실내 응원'
+];
