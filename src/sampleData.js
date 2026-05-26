@@ -354,7 +354,6 @@ export const ATMOSPHERE_TAGS_POOL = [
   '동네 축덕 아지트',
   '맥덕들 추천'
 ],
-```js
 {
   id: 1,
   name: "신촌 낭만오지",
