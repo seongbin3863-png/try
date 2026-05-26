@@ -1,0 +1,6 @@
+{
+  "name": "월드컵맵 (WorldCup Map)",
+  "description": "지금 어디서 제일 뜨겁게 응원중일까? 대한민국 축구 응원 동지들을 위한 분위기 기반 오프라인 응원 장소 및 분위기 탐색 플랫폼.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
