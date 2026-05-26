@@ -1,163 +1,74 @@
 export const INITIAL_PLACES = [
   {
-  id: 'place-1',
-  name: '신촌 낭만오지',
-  category: 'pub',
-  categoryLabel: '스포츠 펍',
-  address: '서울 마포구 고산길 17',
-  region: 'hongdae',
-  regionLabel: '홍대/신촌',
-  latitude: 37.5552,
-  longitude: 126.9368,
-  x: 50,
-  y: 50,
-  imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop',
-  atmosphereTags: ['축구 응원', '빔프로젝터'],
-  crowdLevel: 'moderate',
-  crowdLabel: '✨ 여유',
-  cheerIntensity: 70,
-  soloFriendly: true,
-  instagramUrl: '',
-  naverMapUrl: 'https://naver.me/5r9z7UxJ',
-  description: '신촌 스포츠 펍',
-  realtimeReactions: {
-    fireCount: 10,
-    cheerCount: 20,
-    noSeatCount: 2,
-    goingCount: 15
+    id: 1,
+    name: "신촌 낭만오지",
+    address: "서울 마포구 고산길 17",
+    latitude: 37.5556,
+    longitude: 126.9368,
+    naverMapUrl: "https://naver.me/5r9z7UxJ",
+    category: "pub",
+    crowdLevel: "moderate",
+    cheerIntensity: 78,
+    atmosphereTags: ["축구 응원"]
   },
-  approved: true,
-  createdAt: new Date().toISOString()
-},
 
-{
-  id: 'place-2',
-  name: '신촌 썬더치킨',
-  category: 'chicken',
-  categoryLabel: '치킨집/호프',
-  address: '서울 서대문구 연세로11길 20 1층',
-  region: 'hongdae',
-  regionLabel: '홍대/신촌',
-  latitude: 37.5560,
-  longitude: 126.9363,
-  x: 55,
-  y: 48,
-  imageUrl: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=1200&auto=format&fit=crop',
-  atmosphereTags: ['치맥', '축구 응원'],
-  crowdLevel: 'high',
-  crowdLabel: '🍺 북적임',
-  cheerIntensity: 80,
-  soloFriendly: true,
-  instagramUrl: '',
-  naverMapUrl: 'https://naver.me/FTXD1TC9',
-  description: '신촌 치킨 응원 맛집',
-  realtimeReactions: {
-    fireCount: 15,
-    cheerCount: 25,
-    noSeatCount: 5,
-    goingCount: 20
+  {
+    id: 2,
+    name: "신촌 썬더치킨",
+    address: "서울 서대문구 연세로11길 20 1층",
+    latitude: 37.5563,
+    longitude: 126.9375,
+    naverMapUrl: "https://naver.me/FTXDlTC9",
+    category: "chicken",
+    crowdLevel: "high",
+    cheerIntensity: 85,
+    atmosphereTags: ["치킨"]
   },
-  approved: true,
-  createdAt: new Date().toISOString()
-},
 
-{
-  id: 'place-3',
-  name: '신촌 뉴타운',
-  category: 'pub',
-  categoryLabel: '스포츠 펍',
-  address: '서울 서대문구 연세로12길 27',
-  region: 'hongdae',
-  regionLabel: '홍대/신촌',
-  latitude: 37.5564,
-  longitude: 126.9359,
-  x: 52,
-  y: 46,
-  imageUrl: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=1200&auto=format&fit=crop',
-  atmosphereTags: ['TV 다수', '축구 응원'],
-  crowdLevel: 'moderate',
-  crowdLabel: '✨ 여유',
-  cheerIntensity: 65,
-  soloFriendly: true,
-  instagramUrl: '',
-  naverMapUrl: 'https://naver.me/IGJyfK7B',
-  description: 'TV 다수 보유 스포츠 펍',
-  realtimeReactions: {
-    fireCount: 7,
-    cheerCount: 15,
-    noSeatCount: 1,
-    goingCount: 10
+  {
+    id: 3,
+    name: "신촌 뉴타운",
+    address: "서울 서대문구 연세로12길 27",
+    latitude: 37.5572,
+    longitude: 126.9383,
+    naverMapUrl: "https://naver.me/IGJyfK7B",
+    category: "pub",
+    crowdLevel: "moderate",
+    cheerIntensity: 72,
+    atmosphereTags: ["TV"]
   },
-  approved: true,
-  createdAt: new Date().toISOString()
-},
 
-{
-  id: 'place-4',
-  name: '홍대 만선호프',
-  category: 'chicken',
-  categoryLabel: '치킨집/호프',
-  address: '서울 마포구 와우산로17길 15 1층, 2층',
-  region: 'hongdae',
-  regionLabel: '홍대/신촌',
-  latitude: 37.5499,
-  longitude: 126.9227,
-  x: 40,
-  y: 60,
-  imageUrl: 'https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=1200&auto=format&fit=crop',
-  atmosphereTags: ['호프', '단체 응원'],
-  crowdLevel: 'high',
-  crowdLabel: '🍺 북적임',
-  cheerIntensity: 75,
-  soloFriendly: false,
-  instagramUrl: '',
-  naverMapUrl: 'https://naver.me/xq3drtjR',
-  description: '홍대 단체 응원 호프집',
-  realtimeReactions: {
-    fireCount: 20,
-    cheerCount: 30,
-    noSeatCount: 4,
-    goingCount: 25
+  {
+    id: 4,
+    name: "홍대 만선호프",
+    address: "서울 마포구 와우산로17길 15",
+    latitude: 37.5515,
+    longitude: 126.9227,
+    naverMapUrl: "https://naver.me/xq3drtjR",
+    category: "pub",
+    crowdLevel: "high",
+    cheerIntensity: 91,
+    atmosphereTags: ["호프"]
   },
-  approved: true,
-  createdAt: new Date().toISOString()
-},
 
-{
-  id: 'place-5',
-  name: '신촌 오퍼스',
-  category: 'lounge',
-  categoryLabel: '라운지/루프탑',
-  address: '서울 서대문구 연세로7길 18 2층',
-  region: 'hongdae',
-  regionLabel: '홍대/신촌',
-  latitude: 37.5557,
-  longitude: 126.9374,
-  x: 58,
-  y: 52,
-  imageUrl: 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1200&auto=format&fit=crop',
-  atmosphereTags: ['빔프로젝터', '실내 응원'],
-  crowdLevel: 'moderate',
-  crowdLabel: '✨ 여유',
-  cheerIntensity: 68,
-  soloFriendly: true,
-  instagramUrl: '',
-  naverMapUrl: 'https://naver.me/Gipd4Lqn',
-  description: '신촌 실내 응원 라운지',
-  realtimeReactions: {
-    fireCount: 8,
-    cheerCount: 14,
-    noSeatCount: 2,
-    goingCount: 11
-  },
-  approved: true,
-  createdAt: new Date().toISOString()
-}
-  ];
+  {
+    id: 5,
+    name: "신촌 오퍼스",
+    address: "서울 서대문구 연세로7길 18 2층",
+    latitude: 37.5551,
+    longitude: 126.9362,
+    naverMapUrl: "https://naver.me/Gipd4Lqn",
+    category: "lounge",
+    crowdLevel: "moderate",
+    cheerIntensity: 74,
+    atmosphereTags: ["실내"]
+  }
+];
+
 export const CATEGORY_DETAILS = {
   all: { label: '전체', color: 'bg-zinc-800 text-zinc-100' },
   pub: { label: '스포츠 펍', color: 'bg-emerald-950/80 text-emerald-300 border-emerald-500/30' },
-  chicken: { label: '치킨집/호프', color: 'bg-amber-950/80 text-amber-300 border-amber-500/30' },
+  chicken: { label: '치킨집', color: 'bg-amber-950/80 text-amber-300 border-amber-500/30' },
   lounge: { label: '라운지', color: 'bg-purple-950/80 text-purple-300 border-purple-500/30' },
 };
 
@@ -179,8 +90,8 @@ export const REGIONS = [
 
 export const ATMOSPHERE_TAGS_POOL = [
   '축구 응원',
-  '빔프로젝터',
-  '치맥',
-  'TV 다수',
-  '실내 응원'
+  '치킨',
+  '맥주',
+  '실내',
+  '대형 스크린'
 ];
