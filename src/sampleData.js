@@ -370,7 +370,6 @@ export const ATMOSPHERE_TAGS_POOL = [
   screenType: "빔프로젝터",
   naverMapUrl: "https://naver.me/FTXDlTC9"
 },
-
 {
   id: 3,
   name: "신촌 뉴타운",
