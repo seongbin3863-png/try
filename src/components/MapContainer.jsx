@@ -240,12 +240,16 @@ export default function MapContainer({
         onSelectPlace(place);
       });
 
-      const overlay = new kakao.maps.CustomOverlay({
-        position: new kakao.maps.LatLng(place.latitude, place.longitude),
-        content: container,
-        clickable: true,
-        yAnchor: 1.12
-      });
+      if (!place.latitude || !place.longitude) {
+  return null;
+}
+
+const overlay = new kakao.maps.CustomOverlay({
+  position: new kakao.maps.LatLng(place.latitude, place.longitude),
+  content: container,
+  clickable: true,
+  yAnchor: 1.12
+});
 
       overlay.setMap(map);
       return overlay;
@@ -258,7 +262,14 @@ export default function MapContainer({
   useEffect(() => {
     const map = mapInstanceRef.current;
     const kakao = window.kakao;
-    if (!mapLoaded || !map || !kakao || !selectedPlace) return;
+  if (
+  !mapLoaded ||
+  !map ||
+  !kakao ||
+  !selectedPlace ||
+  !selectedPlace.latitude ||
+  !selectedPlace.longitude
+) return;
 
     const latLng = new kakao.maps.LatLng(selectedPlace.latitude, selectedPlace.longitude);
     const viewportCenter = map.getCenter();
